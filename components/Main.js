@@ -19,13 +19,27 @@ export default function Main() {
             </a>
           </div>
         </div>
-        <div className="xl:mr-44 sm:mr-0 sm:mb-28 mb-0 lg:mb-0 mr-48 md:pl-10">
-          <img
-            className="w-80 md:ml-1 ml-24"
-            alt="iPhone-12"
-            src="/images/iPhone-12-Mockup.png"
-          ></img>
+        <div className="xl:mr-44 sm:mr-0 sm:mb-28 mb-0 lg:mb-0 mr-48 md:pl-10 relative">
+            <video 
+                autoPlay
+                loop
+                muted
+                style={{ 
+                  position: 'absolute', 
+                  top: '10%',    // Adjust this percentage to move the video up/down
+                  left: '6%',    // Adjust this percentage to move the video left/right
+                  width: '100%',  // Adjust this percentage to change video width
+                  height: '80%'  // Adjust this percentage to change video height
+              }}
+                src="./images/scrennrecord.mp4"
+            ></video>
+            <img
+                className="w-80 md:ml-1 ml-24 relative z-20"
+                alt="iPhone-12"
+                src="./images/iPhone-12-Mockup.png"
+            ></img>
         </div>
+
       </div>
       <section className="mx-auto">
         <div className="container px-5 mx-auto lg:px-24 ">
@@ -67,20 +81,22 @@ export default function Main() {
         </div>
       </section>
       <div className="grr max-w-7xl pt-20 mx-auto text-center">
-        <h1 className="mb-8 text-6xl Avenir font-semibold text-gray-900">
-          Less code, less effort.
-        </h1>
-        <h1 className="mb-8 text-2xl Avenir font-semibold text-gray-600 text-center">
-          Minify your CSS with Tailwind's built in PostCSS support.
-        </h1>
-        <div className="container flex flex-col items-center justify-center mx-auto rounded-lg ">
-          <img
-            className="object-cover object-center w-3/4 mb-10 g327 border rounded-lg shadow-md"
-            alt="Placeholder Image"
-            src="./images/placeholder.png"
-          ></img>
-        </div>
+          <h1 className="mb-8 text-6xl Avenir font-semibold text-gray-900">
+            Less code, less effort.
+          </h1>
+          <h1 className="mb-8 text-2xl Avenir font-semibold text-gray-600 text-center">
+            Minify your CSS with Tailwind's built in PostCSS support.
+          </h1>
+          <div className="container flex flex-col items-center justify-center mx-auto rounded-lg ">
+              <video 
+                  controls
+                  className="object-cover object-center w-3/4 mb-10 g327 border rounded-lg shadow-md"
+                  poster="./images/placeholder.png"  // Path to your cover image
+                  src="./images/videotobeopenedfullscreen.mp4"
+              ></video>
+          </div>
       </div>
+
       <section className="relative">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center">
           <div className="py-24 md:py-36">
