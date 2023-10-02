@@ -4,11 +4,11 @@ export default function Main() {
       <div className="max-w-7xl mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 md:ml-24 pt-6 flex flex-col md:items-start md:text-left mb-40 items-center text-center">
           <h1 className="mb-5 sm:text-6xl text-5xl items-center Avenir xl:w-2/2 text-gray-900">
-            We are making Stunning Websites
+            We are helping local shops to go digital.
           </h1>
           <p className="mb-4 xl:w-3/4 text-gray-600 text-lg">
-            nine4 is a free to use website template for websites made with
-            Next.js and styled with Tailwind CSS
+          We aim to revolutionize the retail industry by making shopping more efficient and convenient for our users, 
+          and by providing a platform for businesses to connect with customers and grow their sales
           </p>
           <div className="flex justify-center">
             <a
@@ -19,26 +19,19 @@ export default function Main() {
             </a>
           </div>
         </div>
-        <div className="xl:mr-44 sm:mr-0 sm:mb-28 mb-0 lg:mb-0 mr-48 md:pl-10 relative">
+        <div className="mx-4 md:mx-0 xl:mr-44 sm:mb-28 mb-4 lg:mb-0 md:pl-10 relative p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-full sm:w-3/4 md:w-2/3 lg:w-1/2 xl:w-1/3">
             <video 
                 autoPlay
                 loop
                 muted
-                style={{ 
-                  position: 'absolute', 
-                  top: '10%',    // Adjust this percentage to move the video up/down
-                  left: '6%',    // Adjust this percentage to move the video left/right
-                  width: '100%',  // Adjust this percentage to change video width
-                  height: '80%'  // Adjust this percentage to change video height
-              }}
+                controls
+                className="w-full h-auto sm:h-48 md:h-64 lg:h-80 xl:h-96 rounded-lg"
                 src="./images/scrennrecord.mp4"
             ></video>
-            <img
-                className="w-80 md:ml-1 ml-24 relative z-20"
-                alt="iPhone-12"
-                src="./images/iPhone-12-Mockup.png"
-            ></img>
         </div>
+
+
+
 
       </div>
       <section className="mx-auto">
@@ -82,10 +75,11 @@ export default function Main() {
       </section>
       <div className="grr max-w-7xl pt-20 mx-auto text-center">
           <h1 className="mb-8 text-6xl Avenir font-semibold text-gray-900">
-            Less code, less effort.
+          The easy way to shop.
+
           </h1>
           <h1 className="mb-8 text-2xl Avenir font-semibold text-gray-600 text-center">
-            Minify your CSS with Tailwind's built in PostCSS support.
+            Meet Phoebe, a busy working mother of two who loves to shop online and offline.
           </h1>
           <div className="container flex flex-col items-center justify-center mx-auto rounded-lg ">
               <video 
@@ -101,23 +95,23 @@ export default function Main() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center">
           <div className="py-24 md:py-36">
             <h1 className="mb-5 text-6xl Avenir font-semibold text-gray-900">
-              Subscribe to our newsletter
+              Join waitlist.
             </h1>
             <h1 className="mb-9 text-2xl font-semibold text-gray-600">
-              Enter your email address and get our newsletters straight away.
+              It's Free, You are a small business that want to go online 
             </h1>
             <input
-              placeholder="jack@example.com"
-              name="email"
-              type="email"
-              autoComplete="email"
+              placeholder="+250788008800"
+              name="phone"
+              type="phone"
+              autoComplete="phone"
               className="border border-gray-600 w-1/4 pr-2 pl-2 py-3 mt-2 rounded-md text-gray-800 font-semibold hover:border-gray-900"
             ></input>{" "}
             <a
               className="inline-flex items-center px-14 py-3 mt-2 ml-2 font-medium text-white transition duration-500 ease-in-out transform bg-transparent border rounded-lg bg-gray-900"
               href="/"
             >
-              <span className="justify-center">Subscribe</span>
+              <span className="justify-center">Join</span>
             </a>
           </div>
         </div>

@@ -83,6 +83,22 @@ export default function Footer() {
                   className="hover:text-gray-900 transition-colors duration-200 text-2xl"
                   href="/"
                 >
+                  Product Search
+                </a>
+              </li>
+              <li>
+                <a
+                  className="hover:text-gray-900 transition-colors duration-200 text-2xl"
+                  href="/"
+                >
+                  Delivery
+                </a>
+              </li>
+              <li>
+                <a
+                  className="hover:text-gray-900 transition-colors duration-200 text-2xl"
+                  href="/"
+                >
                   Hosting
                 </a>
               </li>
@@ -91,23 +107,7 @@ export default function Footer() {
                   className="hover:text-gray-900 transition-colors duration-200 text-2xl"
                   href="/"
                 >
-                  Domains
-                </a>
-              </li>
-              <li>
-                <a
-                  className="hover:text-gray-900 transition-colors duration-200 text-2xl"
-                  href="/"
-                >
-                  Security
-                </a>
-              </li>
-              <li>
-                <a
-                  className="hover:text-gray-900 transition-colors duration-200 text-2xl"
-                  href="/"
-                >
-                  SSL
+                  
                 </a>
               </li>
             </ul>
@@ -130,7 +130,7 @@ export default function Footer() {
                   className="hover:text-gray-900 transition-colors duration-200 text-2xl"
                   href="/"
                 >
-                  Facebook
+                  
                 </a>
               </li>
               <li>
