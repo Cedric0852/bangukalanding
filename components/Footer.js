@@ -29,7 +29,7 @@ export default function Footer() {
                   className="hover:text-gray-900 transition-colors duration-200 text-2xl"
                   href="/"
                 >
-                  Brand
+                  
                 </a>
               </li>{" "}
               <li>
@@ -37,7 +37,7 @@ export default function Footer() {
                   className="hover:text-gray-900 transition-colors duration-200 text-2xl"
                   href="/"
                 >
-                  Meetups
+                  
                 </a>
               </li>
             </ul>
